@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using BlanketsMvc.Models;
 
 namespace BlanketsMvc.Data
 {
@@ -12,5 +13,6 @@ namespace BlanketsMvc.Data
             : base(options)
         {
         }
+        public DbSet<BlanketsMvc.Models.Blankets> Blankets { get; set; }
     }
 }
