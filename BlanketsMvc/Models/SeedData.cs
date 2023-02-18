@@ -31,7 +31,8 @@ namespace BlanketsMvc.Models
                         Color = "Grey",
                         Pattern = "Solid",
                         Weight = "Heavy",
-                        Material = "Cotton"
+                        Material = "Cotton",
+                        Rating = "4"
                     },
                     new Blankets
                     {
@@ -40,7 +41,8 @@ namespace BlanketsMvc.Models
                         Color = "Blue",
                         Pattern = "Floral",
                         Weight = "Heavy",
-                        Material = "Nylon"
+                        Material = "Nylon",
+                        Rating = "3"
                     },
                     new Blankets
                     {
@@ -49,7 +51,8 @@ namespace BlanketsMvc.Models
                         Color = "Pink",
                         Pattern = "Strip",
                         Weight = "UltraHeavy",
-                        Material = "Fleece"
+                        Material = "Fleece",
+                        Rating = "5"
                     },
                       new Blankets
                       {
@@ -58,7 +61,8 @@ namespace BlanketsMvc.Models
                           Color = "Purple",
                           Pattern = "Check",
                           Weight = "MediumHeavy",
-                          Material = "Silk"
+                          Material = "Silk",
+                          Rating = "2"
                       },
                        new Blankets
                        {
@@ -67,7 +71,8 @@ namespace BlanketsMvc.Models
                            Color = "Multicolor",
                            Pattern = "Animal Print",
                            Weight = "UltraThin",
-                           Material = "Acrylic"
+                           Material = "Acrylic",
+                           Rating = "4"
                        },
                         new Blankets
                         {
@@ -76,7 +81,8 @@ namespace BlanketsMvc.Models
                             Color = "Pink",
                             Pattern = "Geometric",
                             Weight = "Medium",
-                            Material = "Slik"
+                            Material = "Slik",
+                            Rating = "3"
                         },
                          new Blankets
                          {
@@ -85,7 +91,8 @@ namespace BlanketsMvc.Models
                              Color = "Red",
                              Pattern = "Animal Print",
                              Weight = "UltraHeavy",
-                             Material = "Wool"
+                             Material = "Wool",
+                             Rating = "5"
                          },
                           new Blankets
                           {
@@ -94,7 +101,8 @@ namespace BlanketsMvc.Models
                               Color = "Pink",
                               Pattern = "Holiday",
                               Weight = "Heavy",
-                              Material = "Wool"
+                              Material = "Wool",
+                              Rating = "5"
                           },
                            new Blankets
                            {
@@ -103,7 +111,8 @@ namespace BlanketsMvc.Models
                                Color = "Yellow",
                                Pattern = "Floral",
                                Weight = "Thin",
-                               Material = "Polyster"
+                               Material = "Polyster",
+                               Rating = "3"
                            },
                             new Blankets
                             {
@@ -112,7 +121,8 @@ namespace BlanketsMvc.Models
                                 Color = "Blue",
                                 Pattern = "Strip",
                                 Weight = "UltraHeavy",
-                                Material = "Fleece"
+                                Material = "Fleece",
+                                Rating = "2"
                             }
                 );
                 context.SaveChanges();

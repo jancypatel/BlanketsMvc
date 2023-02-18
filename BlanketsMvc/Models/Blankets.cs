@@ -12,5 +12,6 @@ namespace BlanketsMvc.Models
         public string Pattern { get; set; }
         public string Weight { get; set; }
         public string Material { get; set; }
+        public string Rating { get; set; }
     }
 }
